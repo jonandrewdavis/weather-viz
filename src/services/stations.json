@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "generated": "2022-08-31 21:06:25"
+  },
+  "data": [
+    {
+      "id": "KCQT0",
+      "name": {
+        "en": "Los Angeles / Jefferson"
+      },
+      "distance": 4084.1
+    },
+    {
+      "id": "KHHR0",
+      "name": {
+        "en": "Hawthorne / Cypave"
+      },
+      "distance": 11259.8
+    },
+    {
+      "id": "72295",
+      "name": {
+        "en": "Los Angeles Airport"
+      },
+      "distance": 11334.7
+    },
+    {
+      "id": "72288",
+      "name": {
+        "en": "Burbank-Glendale-Pasadena"
+      },
+      "distance": 19932.3
+    },
+    {
+      "id": "KTOA0",
+      "name": {
+        "en": "Torrance / Walteria"
+      },
+      "distance": 24538.2
+    },
+    {
+      "id": "KVNY0",
+      "name": {
+        "en": "Van Nuys / Raymer"
+      },
+      "distance": 25562.6
+    },
+    {
+      "id": "KWHP0",
+      "name": {
+        "en": "Los Angeles / Pacoima"
+      },
+      "distance": 27371
+    },
+    {
+      "id": "KEMT0",
+      "name": {
+        "en": "El Monte / Hayes"
+      },
+      "distance": 27772.9
+    },
+    {
+      "id": "72297",
+      "name": {
+        "en": "Long Beach Airport"
+      },
+      "distance": 28221.7
+    },
+    {
+      "id": "72289",
+      "name": {
+        "en": "Mount Wilson"
+      },
+      "distance": 33400.8
+    }
+  ]
+}
