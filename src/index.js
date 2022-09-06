@@ -6,7 +6,7 @@ import { ColorModeScript } from "@chakra-ui/react"; // TODO: sense OS setting fo
 const rootElement = document.getElementById("app");
 ReactDOM.createRoot(rootElement).render(
   <>
-    <ColorModeScript initialColorMode={"light"} />
+    <ColorModeScript initialColorMode={"dark"} />
     <App />
   </>
 );

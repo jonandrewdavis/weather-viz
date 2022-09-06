@@ -17,7 +17,7 @@ const options = {
   height: 600,
 };
 
-const Forecast = ({ forecastData, width }) => {
+const Forecast = ({ forecastData, width, locations }) => {
   const { colorMode } = useColorMode();
 
   const [seriesLabel, series] = useMemo(() => {
@@ -25,7 +25,7 @@ const Forecast = ({ forecastData, width }) => {
       chroma.random()
     );
     return formatForecast(forecastData, generateColors);
-  }, [forecastData]);
+  }, [locations]);
 
   return (
     <div>

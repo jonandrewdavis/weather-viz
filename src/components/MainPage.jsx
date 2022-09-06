@@ -49,7 +49,11 @@ const WeatherGraphs = ({ locations }) => {
   return (
     <SimpleGrid columns={2} spacing={10} p={12}>
       <Historical width={STATIC_PAGE_WIDTH / 2} />
-      <Forecast forecastData={locationQueries} width={STATIC_PAGE_WIDTH / 2} />
+      <Forecast
+        forecastData={locationQueries}
+        locations={locations}
+        width={STATIC_PAGE_WIDTH / 2}
+      />
     </SimpleGrid>
   );
 };
